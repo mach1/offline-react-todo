@@ -1,0 +1,24 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  font-smoothing: antialiased;
+  font-weight: 300;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  color: #4d4d4d;
+}
+
+.input {
+  width: 100%;
+  font-size: 24px;
+  padding: 16px 16px 16px 50px;
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.03);
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+
+.input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ddd;
+  -webkit-font-smoothing: antialiased;
+}

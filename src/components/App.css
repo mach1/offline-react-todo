@@ -3,4 +3,14 @@
   font-family: helvetica, arial, sans-serif;
   line-height: 200%;
   padding: 6px 20px 30px;
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  color: #aad;
+  font-weight: 100;
+  font-size: 52px;
+  letter-spacing: -2px;
 }
