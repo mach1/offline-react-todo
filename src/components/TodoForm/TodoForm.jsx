@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
@@ -7,7 +7,7 @@ import styles from './TodoForm.css'
 
 const ENTER = 13
 
-class TodoForm extends Component {
+class TodoForm extends PureComponent {
   constructor (props) {
     super(props)
 
@@ -21,7 +21,6 @@ class TodoForm extends Component {
 
     if (e.keyCode === ENTER) {
       onAddTodo(text)
-      console.log(text)
     }
   }
 
