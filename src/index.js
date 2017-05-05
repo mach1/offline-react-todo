@@ -9,6 +9,10 @@ import { AppContainer } from 'react-hot-loader'
 
 import App from './components/App'
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+}
+
 const store = configureStore()
 
 const render = (Component) => {
